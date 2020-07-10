@@ -53,7 +53,7 @@ class App extends React.Component{
             if (element !== null) {
                 element.style.opacity = "0";
                 element.style.bottom = "45px";
-                element.style.zIndex = "999";
+                element.style.zIndex = "-999";
             }
             if (mobile_element !== null) {
                 mobile_element.style.opacity = "0";
